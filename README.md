@@ -29,5 +29,5 @@ Our receiver code for data collection and visualization was written in gnuradio:
 
 After adjusting gain and squelch in order to remove most noise, we collected data for the following scenarios:
 
-![Alt Text](img/cv2x_transmit.gif)*cv2x_
+![Alt Text](img/cv2x_transmit.gif)*A capture of OTA `cv2x_traffic_generator`*
 
