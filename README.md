@@ -33,5 +33,5 @@ After adjusting gain and squelch in order to remove most noise, we collected dat
 
 ![Alt Text](img/jammer_transmit.gif)*Our receiver capturing the OTA `./top_block.py` jammer signal*
 
-![Alt Text](img/jammed_cv2x)*Jammed c-v2x traffic*
+![Alt Text](img/jammed_cv2x.gif)*Jammed c-v2x traffic*
 
