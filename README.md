@@ -16,9 +16,20 @@ The following modifications were made to the jammer code:
 * `random.randrange(2.6775e9,2.6825e9,1e3))` changed to `random.randrange(5.9165e9,5.917e9,1e3)` (center frequency)
 * `time.sleep(1.0 / (40))` changed to `time.sleep(1.0)` (duration between jamming frequency hopping)
 
+# C-V2X Traffic Generator
+
+We used Fabian Eckermann's [`cv2x-traffic-generator`](https://github.com/FabianEckermann/cv2x-traffic-generator) library in order to generate OTA c-v2x traffic. The citation for his work is the following:
+
+F. Eckermann, C. Wietfeld, `"SDR-based open-source C-V2X traffic generator for stress testing vehicular communication"`, In 2021 IEEE 93rd Vehicular Technology Conference (VTC-Spring), Helsinki, Finland, April 2021.
+
 
 
 # Receiver
 
 Our receiver code for data collection and visualization was written in gnuradio:
 ![Alt Text](img/receiver_blocks.png)
+
+After adjusting gain and squelch in order to remove most noise, we collected data for the following scenarios:
+
+![Alt Text](img/cv2x_transmit.gif)*cv2x_
+
