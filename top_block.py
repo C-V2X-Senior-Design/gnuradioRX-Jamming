@@ -128,7 +128,7 @@ class top_block(gr.top_block, Qt.QWidget):
                 except AttributeError:
                     pass
              #   time.sleep(1.0 / (40)) # change denominator to be smaller so jamming refresh rate is bigger
-                time.sleep(1.0/(1.0))
+                time.sleep(1.0
                 # consider activating jammer on condition from an SNR block
 
         _variable_function_probe_0_thread = threading.Thread(target=_variable_function_probe_0_probe)
