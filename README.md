@@ -29,5 +29,9 @@ Our receiver code for data collection and visualization was written in gnuradio:
 
 After adjusting gain and squelch in order to remove most noise, we collected data for the following scenarios:
 
-![Alt Text](img/cv2x_transmit.gif)*A capture of OTA `cv2x_traffic_generator`*
+![Alt Text](img/cv2x_transmit.gif)*Our receiver capturing an OTA `cv2x_traffic_generator` c-v2x traffic signal*
+
+![Alt Text](img/jammer_transmit.gif)*Our receiver capturing the OTA `./top_block.py` jammer signal*
+
+![Alt Text](img/jammed_cv2x)*Jammed c-v2x traffic*
 
