@@ -20,9 +20,7 @@ The following modifications were made to the jammer code:
 
 We used Fabian Eckermann's [`cv2x-traffic-generator`](https://github.com/FabianEckermann/cv2x-traffic-generator) library in order to generate OTA c-v2x traffic. The citation for his work is the following:
 
-F. Eckermann, C. Wietfeld, `"SDR-based open-source C-V2X traffic generator for stress testing vehicular communication"`, In 2021 IEEE 93rd Vehicular Technology Conference (VTC-Spring), Helsinki, Finland, April 2021.
-
-
+F. Eckermann, C. Wietfeld, *SDR-based open-source C-V2X traffic generator for stress testing vehicular communication*, In 2021 IEEE 93rd Vehicular Technology Conference (VTC-Spring), Helsinki, Finland, April 2021.
 
 # Receiver
 
