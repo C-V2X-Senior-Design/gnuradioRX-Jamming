@@ -20,3 +20,5 @@ The following modifications were made to the jammer code:
 
 # Receiver
 
+Our receiver code for data collection and visualization was written in gnuradio:
+![Alt Text](img/receiver_blocks.png)
