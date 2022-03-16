@@ -13,6 +13,7 @@ YaYa Brown and Cynthia Teng's paper (which links to jammer) is available [here](
 # Jammer Modifications
 
 The following modifications were made to the jammer code:
+
 *`random.randrange(2.6775e9,2.6825e9,1e3))` changed to `random.randrange(5.9165e9,5.917e9,1e3)` (center frequency)
 * `time.sleep(1.0 / (40))` changed to `time.sleep(1.0)` (duration between jamming frequency hopping)
 
